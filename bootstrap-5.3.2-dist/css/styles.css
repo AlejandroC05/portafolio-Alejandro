@@ -5,16 +5,38 @@ body {
 }
 
 .titulo {
-    padding-top: 20%;
+    padding-top: 80px;
+}
+
+.titulot {
+    padding-top: 15px;
+}
+
+.sobremi2 {
+    padding-left: 56px;
+    width: 595px;
+}
+
+.tarjeta {
+    border-radius: 2em;
 }
 
 .perfil {
     width: 350px;
-    padding-top: 70%;
+    padding-top: 65%;
 }
 
 .texto {
-    padding-top: 85%;
+    padding-top: 83%;
+}
+
+.sobremi {
+    padding-top: 10%;
+}
+
+.img2 {
+    width: 370px;
+    height: 390px;
 }
 
 .conte button {
