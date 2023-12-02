@@ -4,8 +4,26 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.flecha {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
+}
+
+.cntner {
+    padding-top: 8%;
+}
+
+.aboutp {
+    width: 410px;
+    height: 420px;
+    border-radius: 1em;
+}
+
 .titulo {
-    padding-top: 80px;
+    padding-top: 15%;
 }
 
 .titulot {
@@ -15,10 +33,6 @@ body {
 .sobremi2 {
     padding-left: 56px;
     width: 595px;
-}
-
-.tarjeta {
-    border-radius: 2em;
 }
 
 .perfil {
@@ -32,11 +46,6 @@ body {
 
 .sobremi {
     padding-top: 10%;
-}
-
-.img2 {
-    width: 370px;
-    height: 390px;
 }
 
 .conte button {
