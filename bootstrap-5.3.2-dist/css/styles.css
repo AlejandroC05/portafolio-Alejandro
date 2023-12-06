@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/*Escritorio*/
+@media (min-width: 992px) {
+    .texto {
+        margin-top: 72%;
+    }
+
+    .perfil {
+        width: 350px;
+        padding-top: 60%;
+    }
+}
+
+@media (min-with: 720px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: green;}
+    
+    .texto {
+        margin-top: 35%;
+    }
+
+    .bo2 {
+        margin-top: 10px;
+    }
+
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/*Teléfonos orientación vertical*/
+@media (max-width: 575.98px) and (orientation:portrait) {
+    body {background: green;}
+
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto {
+        margin-top: 18%;
+    }
+}
+
+/*Teléfono orientación horizontal*/
+@media (max-width: 576px) and (orientation:landscape) {
+    body{background: black;}
+    
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -35,14 +97,9 @@ body {
     width: 595px;
 }
 
-.perfil {
-    width: 350px;
-    padding-top: 65%;
-}
 
-.texto {
-    padding-top: 83%;
-}
+
+
 
 .sobremi {
     padding-top: 10%;
