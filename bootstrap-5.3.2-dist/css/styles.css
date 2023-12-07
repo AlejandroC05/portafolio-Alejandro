@@ -10,6 +10,44 @@
         width: 350px;
         padding-top: 60%;
     }
+
+    .aboutp {
+        width: 410px;
+        height: 420px;
+        border-radius: 1em;
+    }
+
+    .tarjetaexp {
+        justify-content: end;
+        align-items: end;
+
+    }
+
+    .tarjetas {
+        width: 23rem;
+        border-radius: 2em;
+        height: auto;
+    }
+
+    .titulo {
+        padding-top: 12%;
+    }
+
+    .titulo2 {
+        padding-top: 30%;
+    }
+
+    .titulo3 {
+        padding-top: 25%;
+    }
+
+    .tarjetapro {
+        width: 20rem;
+    }
+
+    .contactota {
+        width: 30rem;
+    }
 }
 
 
@@ -29,14 +67,16 @@
         padding-top: 60%;
         justify-items: center;
         justify-content: center;
-        align-items: center;
-        text-align: center;
+    }
+
+    .aboutp {
+        border-radius: 1em;
     }
 }
 
 /*Teléfonos orientación vertical*/
 @media (max-width: 575.98px) and (orientation:portrait) {
-    body {background: rgb(0, 23, 128);}
+    body {background: rgb(153, 156, 173);}
 
     .perfil {
         width: 345px;
@@ -50,6 +90,39 @@
     .texto {
         margin-top: 18%;
     }
+
+    .aboutp {
+        border-radius: 1em;
+        margin-bottom: 5%;
+    }
+
+    #tarjeta2 {
+        padding-top: 20px;
+    }
+
+    #tarjeticapro {
+        margin-bottom: 35px;
+    }
+
+    .tarjetas {
+        width: 23rem;
+        border-radius: 2em;
+        height: auto;
+    }
+
+    .titulo {
+        padding-top: 30%;
+    }
+
+    .titulo2 {
+        padding-top: 40%;
+    } 
+
+    .titulo3 {
+        padding-top: 35%;
+    }
+
+    
 }
 
 /*Teléfono orientación horizontal*/
@@ -73,16 +146,6 @@ body {
 
 .cntner {
     padding-top: 8%;
-}
-
-.aboutp {
-    width: 410px;
-    height: 420px;
-    border-radius: 1em;
-}
-
-.titulo {
-    padding-top: 15%;
 }
 
 .titulot {
