@@ -12,9 +12,6 @@
     }
 }
 
-@media (min-with: 720px){
-
-}
 
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
     body{background: green;}
@@ -39,7 +36,7 @@
 
 /*Teléfonos orientación vertical*/
 @media (max-width: 575.98px) and (orientation:portrait) {
-    body {background: green;}
+    body {background: rgb(0, 23, 128);}
 
     .perfil {
         width: 345px;
