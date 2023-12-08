@@ -24,7 +24,7 @@
     }
 
     .tarjetas {
-        width: 23rem;
+        width: 20.7rem;
         border-radius: 2em;
         height: auto;
     }
@@ -96,18 +96,15 @@
         margin-bottom: 5%;
     }
 
-    #tarjeta2 {
-        padding-top: 20px;
-    }
-
     #tarjeticapro {
         margin-bottom: 35px;
     }
 
     .tarjetas {
-        width: 23rem;
+        max-width: 100%; /* o un valor específico en píxeles */
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 2em;
-        height: auto;
     }
 
     .titulo {
@@ -121,8 +118,14 @@
     .titulo3 {
         padding-top: 35%;
     }
-
     
+    .tarjetaexpe {
+        width: 10rem;
+    }
+
+    .textocarta {
+        text-align: center;
+    }
 }
 
 /*Teléfono orientación horizontal*/
@@ -182,4 +185,4 @@ body {
     border-color: white;
     color: white;
     border-radius: 3em;
-}
+} 
