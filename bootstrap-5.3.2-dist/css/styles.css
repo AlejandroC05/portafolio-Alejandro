@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /*Escritorio*/
 @media (min-width: 992px) {
     .texto {
@@ -46,7 +50,18 @@
     }
 
     .contactota {
-        width: 30rem;
+        width: 28rem;
+    }
+
+    .centradot {
+        display: flex;
+        justify-content: end;
+    }
+
+    .linquedin {
+        display: flex;
+        justify-content: end;
+        margin-left: 10px;
     }
 }
 
@@ -76,7 +91,6 @@
 
 /*Teléfonos orientación vertical*/
 @media (max-width: 575.98px) and (orientation:portrait) {
-    body {background: rgb(153, 156, 173);}
 
     .perfil {
         width: 345px;
@@ -85,6 +99,12 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .contactota {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .texto {
@@ -101,7 +121,7 @@
     }
 
     .tarjetas {
-        max-width: 100%; /* o un valor específico en píxeles */
+        max-width: 100%; 
         margin-left: auto;
         margin-right: auto;
         border-radius: 2em;
@@ -135,9 +155,7 @@
 }
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
+
 
 .flecha {
     width: 50px;
