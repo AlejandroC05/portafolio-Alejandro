@@ -209,15 +209,11 @@ body {
     width: 595px;
 }
 
-
-
-
-
 .sobremi {
     padding-top: 10%;
 }
 
-.conte button {
+.conte {
     padding-top: 20px;
     text-decoration: none;
     border-color: rgba(255, 255, 255, 0);
