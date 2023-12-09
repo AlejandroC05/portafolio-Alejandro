@@ -7,12 +7,12 @@ body {
 /*Escritorio*/
 @media (min-width: 992px) {
     .texto {
-        margin-top: 72%;
+        margin-top: 400px;
     }
 
     .perfil {
         width: 350px;
-        padding-top: 60%;
+        padding-top: 380px;
     }
 
     .aboutp {
@@ -65,31 +65,56 @@ body {
     }
 }
 
-
+/* Teléfono modo escritorio */
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
-    body{background: green;}
     
     .texto {
-        margin-top: 35%;
+        margin-top: 120px;
+    }
+
+    .perfil {
+        width: 345px;
+        padding-top: 170px;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        margin-top: 120px;
+    }
+
+    .titulo2 {
+        margin-top: 120px;
+    }
+
+    .titulo3 {
+        margin-top: 120px;
+    }
+
+    .githubbutton {
+        margin-bottom: 10px;
+    }
+
+    .tarjetas {
+        border-radius: 2em;
+    }
+
+    .contactota {
+        width: 450px;
     }
 
     .bo2 {
         margin-top: 10px;
     }
 
-    .perfil {
-        width: 345px;
-        padding-top: 60%;
-        justify-items: center;
-        justify-content: center;
-    }
-
     .aboutp {
         border-radius: 1em;
+        height: 590px;
+        width: 320px;
     }
 }
 
-/*Teléfonos orientación vertical*/
+/*Teléfono orientación vertical*/
 @media (max-width: 575.98px) and (orientation:portrait) {
 
     .perfil {
@@ -102,9 +127,7 @@ body {
     }
 
     .contactota {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 350px;
     }
 
     .texto {
@@ -141,6 +164,14 @@ body {
     
     .tarjetaexpe {
         width: 10rem;
+    }
+
+    .githubbutton {
+        margin-bottom: 10px;
+    }
+
+    .linkedin {
+        margin-top: 10px;
     }
 
     .textocarta {
