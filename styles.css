@@ -18,7 +18,10 @@ body {
     .aboutp {
         width: 410px;
         height: 420px;
-        border-radius: 1em;
+    }
+
+    .projectimg {
+        height: 328px;
     }
 
     .tarjetaexp {
@@ -27,9 +30,8 @@ body {
 
     }
 
-    .tarjetas {
-        width: 20.7rem;
-        border-radius: 2em;
+    .tarjetas-exp {
+        width: 28.7rem;
         height: auto;
     }
 
@@ -46,14 +48,14 @@ body {
     }
 
     .tarjetapro {
-        width: 20rem;
+        width: 25rem;
     }
 
     .contactota {
         width: 28rem;
     }
 
-    .centradot {
+    .experiencia {
         display: flex;
         justify-content: end;
     }
@@ -63,11 +65,20 @@ body {
         justify-content: end;
         margin-left: 10px;
     }
+
+    .imgaboutme {
+        display: flex;
+        justify-content: end;
+        padding-right: 3.5rem;
+    }
 }
 
 /* Teléfono modo escritorio */
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
-    
+    body {
+        background: red;
+    }
+
     .texto {
         margin-top: 120px;
     }
@@ -79,24 +90,12 @@ body {
         justify-content: center;
     }
 
-    .titulo {
-        margin-top: 120px;
-    }
-
-    .titulo2 {
-        margin-top: 120px;
-    }
-
-    .titulo3 {
+    .titulo, .titulo2, .titulo3 {
         margin-top: 120px;
     }
 
     .githubbutton {
         margin-bottom: 10px;
-    }
-
-    .tarjetas {
-        border-radius: 2em;
     }
 
     .contactota {
@@ -108,7 +107,6 @@ body {
     }
 
     .aboutp {
-        border-radius: 1em;
         height: 590px;
         width: 320px;
     }
@@ -135,7 +133,6 @@ body {
     }
 
     .aboutp {
-        border-radius: 1em;
         margin-bottom: 5%;
     }
 
@@ -143,11 +140,10 @@ body {
         margin-bottom: 35px;
     }
 
-    .tarjetas {
+    .tarjetas-exp {
         max-width: 100%; 
         margin-left: auto;
         margin-right: auto;
-        border-radius: 2em;
     }
 
     .titulo {
@@ -177,6 +173,10 @@ body {
     .textocarta {
         text-align: center;
     }
+
+    .projectimg {
+        height: 275px;
+    }
 }
 
 /*Teléfono orientación horizontal*/
@@ -185,8 +185,21 @@ body {
     
 }
 
+.aboutp, .tarjetas-exp {
+    border-radius: 2em;
+}
 
+.tarjetapro {
+    height: 28rem;
+}
 
+.skillzzz {
+    font-size: large;
+}
+
+.check2 {
+    padding-top: 4rem;
+}
 
 .flecha {
     width: 50px;
@@ -204,16 +217,7 @@ body {
     padding-top: 15px;
 }
 
-.sobremi2 {
-    padding-left: 56px;
-    width: 595px;
-}
-
-.sobremi {
-    padding-top: 10%;
-}
-
-.conte {
+.git-link {
     padding-top: 20px;
     text-decoration: none;
     border-color: rgba(255, 255, 255, 0);
