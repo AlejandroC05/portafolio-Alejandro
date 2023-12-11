@@ -7,12 +7,12 @@ body {
 /*Escritorio*/
 @media (min-width: 992px) {
     .texto {
-        margin-top: 400px;
+        margin-top: 95%;
     }
 
     .perfil {
         width: 350px;
-        padding-top: 380px;
+        padding-top: 90%;
     }
 
     .aboutp {
@@ -27,7 +27,6 @@ body {
     .tarjetaexp {
         justify-content: end;
         align-items: end;
-
     }
 
     .tarjetas-exp {
@@ -69,15 +68,20 @@ body {
     .imgaboutme {
         display: flex;
         justify-content: end;
-        padding-right: 3.5rem;
+        padding-right: 4rem;
+    }
+
+    .contacto {
+        margin-top: 350px;
+    }
+
+    .arrowe {
+        margin-top: 270px;
     }
 }
 
 /* Teléfono modo escritorio */
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
-    body {
-        background: red;
-    }
 
     .texto {
         margin-top: 120px;
@@ -177,11 +181,15 @@ body {
     .projectimg {
         height: 275px;
     }
+
+    .contacto {
+        margin-top: 290px;
+    }
 }
 
 /*Teléfono orientación horizontal*/
 @media (max-width: 576px) and (orientation:landscape) {
-    body{background: black;}
+    body{background: rgb(156, 156, 156);}
     
 }
 
@@ -201,12 +209,8 @@ body {
     padding-top: 4rem;
 }
 
-.flecha {
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, -20%);
+.arrow, .arrowe {
+    width: 40px;
 }
 
 .cntner {

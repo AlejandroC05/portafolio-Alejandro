@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
+  <script>
+    function scrollToSection(contact) {
+    var section = document.getElementById(contact);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
   <body>
     
     <!--Inicio barra de navegación-->
@@ -47,7 +55,7 @@
             <p>Hello, i'm</p>
             <h1>Alejandro Cáceres</h1>
             <h2>Software Developer</h2>
-              <button class="bo1 btn btn-outline-secondary" onclick="window.open('assets/curriculumvitae.pdf')">Download CV</button>
+              <button class="bo1 btn btn-outline-secondary" onclick="window.open('assets/Resume-Alejandro.pdf')">Download CV</button>
               <button class="bo2 btn btn-dark" onclick="scrollToSection('contact')">Contact Info</button>
             <div class="git-link">
               <a href="https://www.github.com/AlejandroC05" target="_blank" style="color: black;"><i class="fa-brands fa-github fa-2xl"></i></a>
@@ -63,12 +71,12 @@
     </div>
     <!--Fin imagen y texto-->
 
-    <!--Inicio about me-->
+
+    <!--Inicio sobre mí-->
     <div class="titulo mx-auto text-center">
       <h6 id="about">Get To Know More</h6>
       <h1 class="fw-bolder">About Me</h1>
-    </div>
-    
+    </div>    
     
     <div class="cntner container text-center">
       <div class="row">
@@ -108,7 +116,9 @@
         </div>
       </div>
     </div>
-    <!--Fin about me-->
+
+    <a href="#experience"><img src="assets/arrow.png" class="arrow img-fluid float-end me-5 mt-3" alt="arrow"></a>
+    <!--Fin sobre mí-->
 
     <!--Inicio experiencia-->
     <div class="titulo mx-auto text-center">
@@ -120,6 +130,7 @@
       <div class="row">
     
         <div class="experiencia col-md-6 mb-4">
+
           <div class="card tarjetas-exp">
             <div class="card-body">
               <h5 class="card-title fw-bolder text-center">Frontend Development</h5>
@@ -169,8 +180,8 @@
                     </div>
 
                     <div class="col-md-4 col-sm-5 col-5 text-start">                    
-                        <div class="text-start mb-4"><span><b class="skillzzz">PHP</b> <br>Basic</span></div>
-                        <div class="text-start"><span><b class="skillzzz">Git</b> <br></span><p>Basic</p></div>                  
+                      <div class="text-start mb-4"><span><b class="skillzzz">PHP</b> <br>Basic</span></div>
+                      <div class="text-start"><span><b class="skillzzz">Git</b> <br></span><p>Basic</p></div>                  
                     </div>
 
                     <div class="col-md-1 col-sm-1 col-1">
@@ -179,8 +190,8 @@
                     </div>
 
                     <div class="col-md-5 col-sm-5 col-5 text-start">                    
-                        <div class="text-start pb-4"><span><b class="skillzzz">MySQL</b> <br>Basic</span></div>
-                        <div class="text-start"><span><b class="skillzzz">Python</b> <br></span><p>Basic</p></div>                  
+                      <div class="text-start pb-4"><span><b class="skillzzz">MySQL</b> <br>Basic</span></div>
+                      <div class="text-start"><span><b class="skillzzz">Python</b> <br></span><p>Basic</p></div>                  
                     </div>
 
     
@@ -194,14 +205,17 @@
       </div>
     </div>
     
+    <a href="#projects"><img src="assets/arrow.png" class="arrowe img-fluid float-end me-5" alt="arrow"></a>
     <!--Fin experiencia-->
 
+
+    <!--Inicio proyectos-->
     <div class="titulo2 mx-auto text-center">
       <h6 id="projects">Explore My Recent</h6>
       <h1 class="fw-bolder">Projects</h1>
     </div>
 
-    <div class="container mb-5 pt-4">
+    <div class="container mb-md-5 pt-4">
       <div class="row row-cols-3">
 
         <div class="col-md-4 col-sm-4 d-flex justify-content-end d-grid gap-2 col-6 mx-auto col-10" id="tarjeticapro">
@@ -246,7 +260,11 @@
       </div>
     </div>
 
+    <a href="#contact"><img src="assets/arrow.png" class="arrow img-fluid float-end me-5 mt-md-4" alt="arrow"></a>
+    <!--Fin proyectos-->
 
+    
+    <!--Inicio contacto-->
     <div class="titulo3 mx-auto text-center">
       <h6 class="projects" id="contact">Get In Touch</h6>
       <h1 class="fw-bolder">Contact Me</h1>
@@ -256,6 +274,7 @@
       <div class="card-body">
         <div class="container">
           <div class="row justify-content-center text-center">
+
             <div class="col-md-9 col-sm-9 col-9">
               <div class="d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-envelope fa-lg" style="color: #000000;"></i>
@@ -269,49 +288,30 @@
                 <a href="https://goo.su/8R33f" target="_blank" class="ms-1" style="text-decoration: none; color: #000000;">Linkedin</a>
               </div>
             </div>
+            
+            <div class="col-md-7 col-sm-9 col-9 mt-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fa-brands fa-facebook fa-lg" style="color: #000000;"></i>
+                <a href="https://onx.la/56381" target="_blank" class="ms-1" style="text-decoration: none; color: #000000;">Facebook</a>
+              </div>
+            </div>
     
+            <div class="col-md-5 col-sm-9 col-9 linkedin mt-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fa-brands fa-square-whatsapp fa-lg" style="color: #000000;"></i>
+                <a href="https://wa.link/69spec" target="_blank" class="ms-1" style="text-decoration: none; color: #000000;">Whatsapp</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
+    <!--Fin contacto-->
 
-    <div class="container" style="width: 380px; height: auto;">
-
-      <div class="text-center">
-        <h4 class="pt-1 fw-bolder">¡Contact me here!</h4>
-      </div>
-      
-      <form>
-
-        <div class="input-group mb-3 pt-3">
-            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user-tie fa-lg" style="color: #000000;"></i></span>
-            <input type="text" class="form-control" placeholder="Name and Last Name" required>
-        </div>
-
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope fa-lg" style="color: #000000;"></i></span>
-          <input type="email" class="form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-        </div>
-
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-envelope-open fa-lg" style="color: #000000;"></i></span>
-          <input type="text" class="form-control" placeholder="Subject" id="exampleInputPassword1" required>
-          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-circle-info fa-lg" title="Be objective" style="color: #000000;"></i></span>
-        </div>
-
-        <div class="input-group">
-            <textarea name="Comentario" placeholder="Comment" id="" cols="60" rows="4"></textarea>
-        </div>
-
-        <div class="d-grid gap-2 pt-4">
-          <button class="btn btn-outline-dark rounded-5" type="submit">Contact</button>
-        </div>
-
-      </form>
-      
-    </div>
-
-    <div class="container d-flex justify-content-center">
+    
+    <!--Menú de navegación-->
+    <div class="container contacto d-flex justify-content-center">
       <div class="navbar navbar-expand-lg mx-auto pt-4">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -328,8 +328,9 @@
         </div>
       </div>
     </div>
-    
-    <script src="script.js"></script>
+    <!--Fin menú de navegación-->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   </body>
